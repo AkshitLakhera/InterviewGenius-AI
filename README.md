@@ -82,10 +82,6 @@ Interview Genius AI is an innovative platform designed to assist individuals in 
      npm run deploy
      ```
 
-   ```
-
-   ```
-
 ### Frontend:
 
 1- Navigate to frontend:
@@ -100,7 +96,7 @@ cd frontend
 npm install
 ```
 
-3- Run frotend locally:
+3- Run frontend locally:
 
 ```bash
 npm run dev
