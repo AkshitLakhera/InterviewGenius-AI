@@ -5,7 +5,7 @@ import { userRouter } from "./routes/user";
 const app = new Hono<{
   Bindings: {
     DATABASE_URL: string;
-  };
+  };  
 }>();
 app.use("/*", cors());
 app.route("app/v1/user", userRouter);
