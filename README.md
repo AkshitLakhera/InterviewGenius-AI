@@ -20,9 +20,10 @@ Interview Genius AI is an innovative platform designed to assist individuals in 
 
 ### Backend
 
-- **Cloudflare Workers**: Serverless platform for backend logic and APIs.
+- **Node js**: Using nodejs a backend.
 - **Prisma**: Database ORM for PostgreSQL.
 - **Python**: Scripting for resume parsing.
+- **Expressjs**:Used to create the scalable webservers
 
 ### Development Setup
 
@@ -50,9 +51,6 @@ Interview Genius AI is an innovative platform designed to assist individuals in 
    ```
    - Create a copy of .env.example and name the file .env
    - Set up Postgres DATABASE_URL in .env file. You can get a free PostgreSQL connection string from Aiven.io.
-   -Set up Prisma connection pool DATABASE_URL in wrangler.toml file. You can get this for free from Prisma.
-   -Set up JWT Secret JWT_SECRET in wrangler.toml file. This can be any value.
-
    ```
 
 3. **Install Dependencies**:
